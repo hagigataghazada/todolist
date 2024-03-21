@@ -1,13 +1,30 @@
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
 
-a {
-  color: orange;
+#todolist {
+  padding: 100px 0;
 }
-
-a:hover {
-  color: black;
+#todolist .textbox {
+  width: 280px;
+  height: 280px;
+  border-radius: 20px;
+  background-color: #5e3b20;
 }
-/*# sourceMappingURL=style.css.map */
+#todolist .textbox h1 {
+  padding: 10px 0 20px 0;
+  color: white;
+  font-weight: 700;
+  font-size: 45px;
+}
+#todolist .textbox input {
+  border-radius: 20px;
+  height: 50px;
+}
+#todolist .textbox .btn {
+  margin: 20px 0;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px 20px;
+}/*# sourceMappingURL=style.css.map */
